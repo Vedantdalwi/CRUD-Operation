@@ -23,7 +23,7 @@ const UpdateUser = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/user/${id}`)
+      .get(`https://crud-operation-1w3h.onrender.com/api/user/${id}`)
       .then((response) => {
         setUser(response.data);
       })
