@@ -62,12 +62,12 @@ const AddTeacher = () => {
           />
         </div>
         <div className="inputGroup">
-          <label htmlFor="subject">Subject:</label>
+          <label htmlFor="subject">Designation:</label>
           <input
             type="text"
             id="subject"
             onChange={inputHandler}
-            name="Designation"
+            name="subject"
             autoComplete="off"
             placeholder="Enter Designation"
           />
