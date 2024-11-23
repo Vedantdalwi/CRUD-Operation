@@ -21,7 +21,7 @@ const AddTeacher = () => {
   const submitForm = async (e) => {
     e.preventDefault();
     await axios
-      .post("http://localhost:8000/api/teacher", teacher)
+      .post("https://crud-operation-1w3h.onrender.com/api/teacher", teacher)
       .then((response) => {
         toast.success(response.data.message, { position: "top-right" });
         navigate("/teachers");
