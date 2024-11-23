@@ -45,7 +45,7 @@ const Teacher = () => {
             <th scope="col">S.No.</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
-            <th scope="col">Subject</th>
+            <th scope="col">Designation</th>
             <th scope="col">Actions</th>
           </tr>
         </thead>
