@@ -67,7 +67,7 @@ const AddTeacher = () => {
             type="text"
             id="subject"
             onChange={inputHandler}
-            name="subject"
+            name="Designation"
             autoComplete="off"
             placeholder="Enter Designation"
           />
