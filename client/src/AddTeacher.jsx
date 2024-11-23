@@ -37,7 +37,7 @@ const AddTeacher = () => {
         <i className="fa-solid fa-backward"></i> Back
       </Link>
 
-      <h3>Add New Teacher</h3>
+      <h3>Add New Employee</h3>
       <form className="addUserForm" onSubmit={submitForm}>
         <div className="inputGroup">
           <label htmlFor="name">Name:</label>
@@ -47,7 +47,7 @@ const AddTeacher = () => {
             onChange={inputHandler}
             name="name"
             autoComplete="off"
-            placeholder="Enter teacher's name"
+            placeholder="Enter Employee's name"
           />
         </div>
         <div className="inputGroup">
@@ -58,7 +58,7 @@ const AddTeacher = () => {
             onChange={inputHandler}
             name="email"
             autoComplete="off"
-            placeholder="Enter teacher's email"
+            placeholder="Enter Employees's email"
           />
         </div>
         <div className="inputGroup">
@@ -69,7 +69,7 @@ const AddTeacher = () => {
             onChange={inputHandler}
             name="subject"
             autoComplete="off"
-            placeholder="Enter subject"
+            placeholder="Enter Designation"
           />
         </div>
         <div className="inputGroup">
