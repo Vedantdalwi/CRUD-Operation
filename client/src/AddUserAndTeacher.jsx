@@ -9,7 +9,7 @@ const AddUserAndTeacher = () => {
       <h2>Add User</h2>
       <AddUser />
       <hr />
-      <h2>Add Teacher</h2>
+      <h2>Add Employee</h2>
       <AddTeacher />
     </div>
   );
