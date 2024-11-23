@@ -36,7 +36,7 @@ const Teacher = () => {
   return (
     <div className="teacherTable">
       <Link to="/add" type="button" className="btn btn-primary">
-        Add Teacher <i className="fa-solid fa-user-plus"></i>
+        Add Employee <i className="fa-solid fa-user-plus"></i>
       </Link>
 
       <table className="table table-bordered">
