@@ -16,4 +16,4 @@ const teacherSchema = new mongoose.Schema({
   },
 });
 
-export default mongoose.model("Teachers", teacherSchema);
+export default mongoose.model("Employee", teacherSchema);
